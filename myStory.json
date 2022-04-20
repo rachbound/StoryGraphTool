@@ -1,0 +1,61 @@
+{
+    "Title": "Hanging out at the Mall",
+    "Credits": "Created by Rachel Trieu (rtrieu@ucsc.edu).",
+    "InitialLocation": "Entrance",
+    "Locations": {
+        "Entrance": {
+            "Body": "This is Jam Plaza, lots of jam related things here.",
+            "Choices": [
+                {
+                    "Text": "Left",
+                    "Target": "Donuts"
+                }
+            ]
+        },
+        "Donuts": {
+            "Body": "This is Jam Donuts. They specialize in jam-filled donuts!",
+            "Choices": [
+                {
+                    "Text": "Left",
+                    "Target": "Jam Records"
+                },
+                {
+                    "Text": "Right",
+                    "Target": "Beyond"
+                }
+            ]
+        },
+        "Jam Records": {
+            "Body": "Jam Records, the best place for all things music!",
+            "Choices": [
+                {
+                    "Text": "Left",
+                    "Target": "Traffic Jam"
+                },
+                {
+                    "Text": "Right",
+                    "Target": "Donuts"
+                }
+            ]
+        },
+        "Traffic Jam": {
+            "Body": "Traffic Jam, I hear they have all the latest car models.",
+            "Choices": [
+                {
+                    "Text": "Left",
+                    "Target": "Done"
+                },
+                {
+                    "Text": "Right",
+                    "Target": "Jam Records"
+                }
+            ]
+        },
+        "Beyond": {
+            "Body": "Leaving already? Come back again!"
+        },
+        "Done": {
+            "Body": "That was fun! We should come back again sometime!"
+        }
+    }
+}
